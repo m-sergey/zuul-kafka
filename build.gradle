@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+
+group = "samples"
+version = "1.0.0-SNAPSHOT"
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
